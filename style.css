@@ -1,0 +1,42 @@
+.container {
+    margin: 0px 110px 58px 110px;
+}
+
+
+.list-reset {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+background-color: transparent;
+cursor: pointer;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+
+/* COMMON */
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #000000;
+}
