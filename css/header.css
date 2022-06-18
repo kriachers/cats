@@ -1,0 +1,136 @@
+/* HEADER */
+
+
+.fill__blur.active {
+    filter: blur(10px);
+}
+
+.fill__blur2.active {
+    filter: blur(10px);
+}
+
+.header__bg {
+background-image: url(../img/index-background-desktop.jpg);
+background-repeat: no-repeat;
+background-position: right;
+height: 696px; 
+margin-bottom: 52px;
+background-size: 50% 696px;
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 53px;
+
+}
+
+.logo__img {
+min-width: 202px;
+margin-right: 20px;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__item:not(:last-child) {
+    margin-right: 37px;
+}
+
+.nav__link {
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-transform: uppercase;
+color: #FFFFFF;
+transition: 0.7s ease;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+    background-color: black;
+}
+
+/* MAIN CONTAINER */
+
+.main {
+    display: flex;
+    /* display: grid;
+    grid-template-areas: 
+    title can
+    descr can
+    programm can;
+    grid-template-rows: 120px 20px 20px;
+grid-template-columns: 414px 552px;
+    padding-top: 32px; */
+}
+
+
+.main__title {
+margin: 0;
+grid-area: title;
+margin-bottom: 40px;
+margin-top: 111px;
+font-weight: 400;
+font-size: 60px;
+line-height: 60px;
+color: #000000;
+text-align: left;
+}
+
+.main__descr {
+grid-area: descr;
+margin-bottom: 52px; 
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+text-transform: uppercase;
+color: #000000;
+}
+
+.main__programm {
+    grid-area: programm;
+    padding: 14px 26px;
+width: 244px;
+height: 54px;
+left: 190px;
+top: 455px;
+background: #68B738;
+
+font-weight: 400;
+font-size: 20px;
+line-height: 0px;
+text-transform: uppercase;
+color: #FFFFFF;
+border: none;
+}
+
+.main__right {
+    grid-area: can;
+}
+
+.main {
+position: relative;
+}  
+
+ .main__img {
+max-width: 552px;
+position: absolute;
+top: -5px;
+left: 30%;
+} 
